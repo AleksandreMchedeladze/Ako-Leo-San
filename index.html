@@ -12,10 +12,11 @@
     <title>School Web</title>
 </head>
 <body>
+  <!-- navbar -->
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid" style="background-color: #c2e5ff; margin-top: -.5rem; margin-bottom: 1.5rem;">
           <a class="navbar-brand" href="#">
-            <img src="./images/classroom(1).png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            <img src="./images/classroom.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
             11 საჯარო სკოლა</a>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -33,5 +34,53 @@
               </ul>
         </div>
       </nav>
+        <!-- slider -->
+        <div id="slider">
+          <input type="radio" name="slider" id="slide1" checked>
+          <input type="radio" name="slider" id="slide2" >
+          <input type="radio" name="slider" id="slide3" >
+          <div id="slides">
+             <div id="overflow">
+                <div class="inner">
+                   <div class="slide slide_1">
+                      <div class="slide-content">
+                         <h2>School</h2>
+                         <img src="./images/school1.jpg" alt="11საჯარო სკოლის ფოტო" width="100px" height="110px">
+                         <img src="./images/school0.jpg" alt="11საჯარო სკოლის ფოტო" width="100px" height="110px">
+
+                      </div>
+                   </div>
+                   <div class="slide slide_2">
+                      <div class="slide-content">
+                         <h2>School inventary</h2>
+                         <img src="./images/high school.JPG" alt="high school">
+                         <img src="/images/school2.jpg" alt="school">  
+                      </div>
+                   </div>
+                   <div class="slide slide_3">
+                      <div class="slide-content">
+                         <h2>School</h2>
+                         <img src="./images/school3.jpg" alt="school">
+                         <img src="./images/school4.jpg" alt="school">
+                      </div>
+                   </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+          <div id="controls">
+             <label for="slide1"></label>
+             <label for="slide2"></label>
+             <label for="slide3"></label>
+          </div>
+          <div id="bullets">
+             <label for="slide1"></label>
+             <label for="slide2"></label>
+             <label for="slide3"></label>
+          </div>
+       </div>
+        
+
+
 </body>
 </html>
